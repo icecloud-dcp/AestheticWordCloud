@@ -90,13 +90,15 @@ button = st.sidebar.button('Generate')
 
 if button:
 	if text:
-		with st.spinner('Cleaning text...'):
+		placeholder1 = st.empty()
+		with placeholder1.spinner('Cleaning text...'):
 			cleaned_text = clean(text)
-		with st.success('Text cleaning done!'):
-			time.sleep(2)
-
-		with st.spinner("Generating word cloud..."):
+		placeholder1.success('Text cleaning done!')
+		
+		placeholder2 = st.empty()
+		with placeholder2.spinner("Generating word cloud..."):
 			wordcloud = create_wordcloud(cleaned_text)
-		with st.success('Word Cloud generation done!'):
-			st.image("wordcloud.png")
-			time.sleep(2)
+		time.sleep(1)
+		placeholder1.empty()
+		placeholder2.success('Word Cloud generation done!')
+		st.image("wordcloud.png")
