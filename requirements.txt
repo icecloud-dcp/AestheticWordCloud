@@ -7,3 +7,4 @@ matplotlib==3.5.2
 streamlit==1.16.0
 click==8.0.4
 typer==0.7.0
+python -m spacy download en_core_web_sm
