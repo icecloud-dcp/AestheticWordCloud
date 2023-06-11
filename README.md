@@ -4,7 +4,9 @@ This is a powerful and interactive Word Cloud generator built with [Streamlit](h
 
 The resulting word cloud is rendered with a resolution of 3000x2000 pixels, with words colored in black and set against a serene teal background. The word cloud is then saved as a `.png` file.
 
-![Sample Word Cloud](Sample WordCloud.png)
+<p align="center">
+<img width="70%" height="70%" src="Sample WordCloud.png"/>
+</p>
 
 ## Getting Started
 
