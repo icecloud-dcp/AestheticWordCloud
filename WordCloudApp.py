@@ -92,11 +92,11 @@ if button:
 	if text:
 		with st.spinner('Cleaning text...'):
 			cleaned_text = clean(text)
+		with st.success('Text cleaning done!'):
+			time.sleep(2)
 
 		with st.spinner("Generating word cloud..."):
-			st.success('Text cleaning done!')
 			wordcloud = create_wordcloud(cleaned_text)
-
-		st.success('Word Cloud generation done!')
-		time.sleep(2)
-		st.image("wordcloud.png")
+		with st.success('Word Cloud generation done!'):
+			st.image("wordcloud.png")
+			time.sleep(2)
