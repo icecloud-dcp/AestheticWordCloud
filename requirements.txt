@@ -3,7 +3,9 @@ textblob==0.17.1
 nltk==3.7
 wordcloud==1.9.2
 matplotlib==3.5.2
-click==8.0.4
+Click==7.0
 typer==0.7.0
-spacy>=3.0.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
+spacy==2.2.3
+# en-core-web-sm==2.2.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+streamlit==0.52.2
