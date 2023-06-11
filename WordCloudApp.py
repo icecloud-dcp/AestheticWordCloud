@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import os
 import streamlit as st
 import time
+import nltk
 
 nltk.download('stopwords')
 
