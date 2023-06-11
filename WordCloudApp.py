@@ -98,8 +98,8 @@ if button:
 		placeholder2 = st.empty()
 		with st.spinner("Generating word cloud..."):
 			wordcloud = create_wordcloud(cleaned_text)
-		time.sleep(1)
 		placeholder1.empty()
 		placeholder2.success('Word Cloud generation done!')
+		time.sleep(1.5)
 		st.image("wordcloud.png")
 		placeholder2.empty()
