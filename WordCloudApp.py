@@ -55,7 +55,7 @@ def clean(text):
 
 # change the value to black
 def black_color_func(word, font_size, position,orientation,random_state=None, **kwargs):
-    return "#ffffff"
+    return "#000000"
 
 
 def create_wordcloud(text):
@@ -66,7 +66,7 @@ def create_wordcloud(text):
 	wordcloud = WordCloud(
 					    	width=3000, 
 					    	height=2000, 
-					    	background_color='#136E70', 
+					    	background_color='#ffffff', 
 					    	max_words=1000,
 					    	font_path='Oswald-VariableFont_wght.ttf'
 					    	).generate_from_frequencies(frequency)
