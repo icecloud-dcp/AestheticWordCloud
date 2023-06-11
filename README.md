@@ -2,7 +2,7 @@
 
 This is a powerful and interactive Word Cloud generator built with [Streamlit](https://streamlit.io/). The application takes text as an input, processes it by cleaning and lemmatizing, and generates a beautiful word cloud. The processing steps involve removing emojis, special elements, punctuation, and stop words, converting text to lowercase, and lemmatizing words. Users can also select words that they consider unnecessary, and these will be removed from the final word cloud. 
 
-The resulting word cloud is rendered with a resolution of 3000x2000 pixels, with words colored in black and set against a serene teal background. The word cloud is then saved as a `.png` file.
+The resulting word cloud is rendered with a resolution of 3000x2000 pixels, with words colored in black and set against a serene white background. The word cloud is then saved as a `.png` file.
 
 <p align="center">
 <img width="70%" height="70%" src="Sample WordCloud.png"/>
