@@ -84,6 +84,8 @@ st.sidebar.title("Word Cloud Generator")
 
 text = st.sidebar.text_area(label="Paste your text here", height=300)
 
+button = False
+
 if text:
 	button = st.sidebar.button('Generate')
 
