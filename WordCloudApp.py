@@ -11,9 +11,6 @@ import streamlit as st
 import time
 
 
-PATH = os.getcwd() + "\\input.txt"
-f = open(PATH, "r")
-text = f.read()
 
 def clean(text):
 
