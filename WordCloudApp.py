@@ -12,6 +12,15 @@ import time
 import nltk
 
 nltk.download('stopwords')
+# Load the spacy model from the installed package
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    # If not found, then download and load it
+    from spacy.cli.download import download as spacy_download
+    spacy_download("en_core_web_sm")
+    import en_core_web_sm
+    nlp = en_core_web_sm.load()
 
 def clean(text):
 
