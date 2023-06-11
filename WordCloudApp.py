@@ -10,7 +10,7 @@ import os
 import streamlit as st
 import time
 
-
+nltk.download('stopwords')
 
 def clean(text):
 
